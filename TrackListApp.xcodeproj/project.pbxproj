@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		5F0089D72838E72300EF61A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0089D62838E72300EF61A6 /* AppDelegate.swift */; };
 		5F0089D92838E72300EF61A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0089D82838E72300EF61A6 /* SceneDelegate.swift */; };
-		5F0089DB2838E72300EF61A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0089DA2838E72300EF61A6 /* ViewController.swift */; };
 		5F0089DE2838E72300EF61A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0089DC2838E72300EF61A6 /* Main.storyboard */; };
 		5F0089E02838E72400EF61A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0089DF2838E72400EF61A6 /* Assets.xcassets */; };
 		5F0089E32838E72400EF61A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0089E12838E72400EF61A6 /* LaunchScreen.storyboard */; };
+		5F0089EB2839017400EF61A6 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0089EA2839017400EF61A6 /* TrackListViewController.swift */; };
+		5F0089ED2839088F00EF61A6 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0089EC2839088F00EF61A6 /* Track.swift */; };
+		5FEDDA8A284712BA003B9D6B /* TrackDetalisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDA89284712BA003B9D6B /* TrackDetalisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F0089D32838E72300EF61A6 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0089D62838E72300EF61A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F0089D82838E72300EF61A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F0089DA2838E72300EF61A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F0089DD2838E72300EF61A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F0089DF2838E72400EF61A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0089E22838E72400EF61A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0089E42838E72400EF61A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0089EA2839017400EF61A6 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		5F0089EC2839088F00EF61A6 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		5FEDDA89284712BA003B9D6B /* TrackDetalisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetalisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				5F0089D62838E72300EF61A6 /* AppDelegate.swift */,
 				5F0089D82838E72300EF61A6 /* SceneDelegate.swift */,
-				5F0089DA2838E72300EF61A6 /* ViewController.swift */,
 				5F0089DC2838E72300EF61A6 /* Main.storyboard */,
 				5F0089DF2838E72400EF61A6 /* Assets.xcassets */,
 				5F0089E12838E72400EF61A6 /* LaunchScreen.storyboard */,
 				5F0089E42838E72400EF61A6 /* Info.plist */,
+				5F0089EA2839017400EF61A6 /* TrackListViewController.swift */,
+				5F0089EC2839088F00EF61A6 /* Track.swift */,
+				5FEDDA89284712BA003B9D6B /* TrackDetalisViewController.swift */,
 			);
 			path = TrackListApp;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0089DB2838E72300EF61A6 /* ViewController.swift in Sources */,
+				5FEDDA8A284712BA003B9D6B /* TrackDetalisViewController.swift in Sources */,
 				5F0089D72838E72300EF61A6 /* AppDelegate.swift in Sources */,
 				5F0089D92838E72300EF61A6 /* SceneDelegate.swift in Sources */,
+				5F0089EB2839017400EF61A6 /* TrackListViewController.swift in Sources */,
+				5F0089ED2839088F00EF61A6 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
